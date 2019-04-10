@@ -9,6 +9,8 @@ namespace APITest.Controllers
 {
     public class ValuesController : ApiController
     {
+        //postman 提交数据测试，要注意使用body下的x-www-form-urlencoded，如果只是单纯的字符串key值可以忽略
+
         /// <summary>
         /// 手动添加代码
         /// </summary>
@@ -55,7 +57,6 @@ namespace APITest.Controllers
         {
             mockDataList.RemoveAt(id);
         }
-
 
 
 
